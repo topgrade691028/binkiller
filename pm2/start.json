@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Binance-Killer-Bot",
+    "script": "dist/main.js",
+    "merge_logs": true,
+    "instances": 1,
+    "error_file": "./pm2/logs/staging/error.log",
+    "out_file": "./pm2/logs/staging/output.log",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "env": {},
+    "watch": false
+  }
+]
